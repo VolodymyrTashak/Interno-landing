@@ -1,18 +1,28 @@
 {
   "files": {
     "main.css": "/Interno-landing/static/css/main.4dd74833.css",
-    "main.js": "/Interno-landing/static/js/main.b5681fa6.js",
+    "main.js": "/Interno-landing/static/js/main.1bf54054.js",
     "static/media/Hero.webp": "/Interno-landing/static/media/Hero.1d6bb7504d85b51cfc5f.webp",
+    "static/media/Image-4.webp": "/Interno-landing/static/media/Image-4.7d79163131b5ea03151b.webp",
+    "static/media/Image-1.webp": "/Interno-landing/static/media/Image-1.006167d994ae78413d51.webp",
+    "static/media/Image-2.webp": "/Interno-landing/static/media/Image-2.9b3731826718e34713f8.webp",
     "static/media/BenefitsImage.webp": "/Interno-landing/static/media/BenefitsImage.71542e8718efcebed529.webp",
+    "static/media/Living Room-2.webp": "/Interno-landing/static/media/Living Room-2.5dd7b310ee44a85c1ccb.webp",
+    "static/media/Image-3.webp": "/Interno-landing/static/media/Image-3.44510f0803f87254b582.webp",
+    "static/media/Kitchen Design-2.webp": "/Interno-landing/static/media/Kitchen Design-2.2a9349fb9cdee0d280fe.webp",
+    "static/media/Living Room.webp": "/Interno-landing/static/media/Living Room.64f6d3700834c05c3f2c.webp",
+    "static/media/Kitchen Design.webp": "/Interno-landing/static/media/Kitchen Design.0a88507cbf06e89c4401.webp",
+    "static/media/Minimalist Interior-2.webp": "/Interno-landing/static/media/Minimalist Interior-2.c7f8594a62e45b70137c.webp",
+    "static/media/Minimalist Interior.webp": "/Interno-landing/static/media/Minimalist Interior.8f5c6e6e756f8a12bcbd.webp",
     "static/media/David Knight.webp": "/Interno-landing/static/media/David Knight.80d8acae7c8462dd1271.webp",
     "static/media/Lisa Clairton.webp": "/Interno-landing/static/media/Lisa Clairton.8871de5739a856d4b493.webp",
     "static/media/Lisa Knight.webp": "/Interno-landing/static/media/Lisa Knight.da836d3360d7a8b1cb1f.webp",
     "index.html": "/Interno-landing/index.html",
     "main.4dd74833.css.map": "/Interno-landing/static/css/main.4dd74833.css.map",
-    "main.b5681fa6.js.map": "/Interno-landing/static/js/main.b5681fa6.js.map"
+    "main.1bf54054.js.map": "/Interno-landing/static/js/main.1bf54054.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd74833.css",
-    "static/js/main.b5681fa6.js"
+    "static/js/main.1bf54054.js"
   ]
 }
