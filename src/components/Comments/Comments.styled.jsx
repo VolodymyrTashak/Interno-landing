@@ -14,7 +14,7 @@ font-size: 34px;
 font-style: italic;
 font-weight: 600;
 color: #415e81;
-margin-bottom: 20px;
+margin-bottom: 50px;
 `;
 
 export const CommentsList = styled.ul`

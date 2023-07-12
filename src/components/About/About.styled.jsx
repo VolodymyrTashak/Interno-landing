@@ -21,7 +21,7 @@ export const AboutTitle = styled.h2`
 font-family: DM Sans,sans-serif;
 font-size: 34px;
 font-style: italic;
-font-weight: 500;
+font-weight: 600;
 color: #292F36;
 margin-bottom: 20px;
 `;
