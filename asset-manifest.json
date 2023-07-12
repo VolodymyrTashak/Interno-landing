@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/Interno-landing/static/css/main.7acaea2f.css",
-    "main.js": "/Interno-landing/static/js/main.07d3183d.js",
+    "main.css": "/Interno-landing/static/css/main.4dd74833.css",
+    "main.js": "/Interno-landing/static/js/main.b5681fa6.js",
+    "static/media/Hero.webp": "/Interno-landing/static/media/Hero.1d6bb7504d85b51cfc5f.webp",
+    "static/media/BenefitsImage.webp": "/Interno-landing/static/media/BenefitsImage.71542e8718efcebed529.webp",
+    "static/media/David Knight.webp": "/Interno-landing/static/media/David Knight.80d8acae7c8462dd1271.webp",
+    "static/media/Lisa Clairton.webp": "/Interno-landing/static/media/Lisa Clairton.8871de5739a856d4b493.webp",
+    "static/media/Lisa Knight.webp": "/Interno-landing/static/media/Lisa Knight.da836d3360d7a8b1cb1f.webp",
     "index.html": "/Interno-landing/index.html",
-    "main.7acaea2f.css.map": "/Interno-landing/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Interno-landing/static/js/main.07d3183d.js.map"
+    "main.4dd74833.css.map": "/Interno-landing/static/css/main.4dd74833.css.map",
+    "main.b5681fa6.js.map": "/Interno-landing/static/js/main.b5681fa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.4dd74833.css",
+    "static/js/main.b5681fa6.js"
   ]
 }
