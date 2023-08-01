@@ -37,19 +37,36 @@ ul {
   padding: 0px;
 }
 
-.container {
-  margin-left: 120px;
-  margin-right: 120px;
-
-  /* @media screen and (min-width: 480px) {
-    max-width: 480px; 
+a {
+color: #4D5053;
+font-family: DM Sans,sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+text-decoration: none;
 }
+
+a:hover {
+  color: #afb7be;
+}
+
+.container {
+
+
+ @media screen and (min-width: 480px) {
+  margin-left: 60px;
+  margin-right: 60px;
+} 
+
 
   @media screen and (min-width: 768px) {
-    max-width: 768px; 
-}
+    margin-left: 80px;
+   margin-right: 80px;
+ }
 
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
-} */
+    margin-left: 120px;
+    margin-right: 120px;
+  } 
 }

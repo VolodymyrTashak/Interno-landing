@@ -11,15 +11,15 @@ import { Footer } from "./Footer/Footer";
 export const App = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <About />
       <Benefits />
-      <Comments />
+      {/* <Comments />
       <Projects />
       <Experience />
       <Recents />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

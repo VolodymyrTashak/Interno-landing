@@ -1,20 +1,40 @@
 import styled from 'styled-components';
 
 export const AboutBox = styled.div`
-margin-bottom: 100px;
+margin-bottom: 50px;
+
+@media (min-width: 1200px) {
+    margin-bottom: 100px;
+     }
 `;
 
 export const AboutList = styled.ul`
 display: grid;
 grid-column-gap: 16px;
 grid-row-gap: 32px;
-grid-template-columns: repeat(3,1fr);
+
+@media (min-width: 480px) and (max-width: 767px) {
+    grid-template-columns: repeat(1,1fr);
+     }
+     @media (min-width: 768px) and (max-width: 1199px) {
+        grid-template-columns: repeat(2,1fr);
+        }
+        @media (min-width: 1200px) {
+            grid-template-columns: repeat(3,1fr);
+            }
 `;
 
 export const AboutItem = styled.li`
 text-align: center;
-padding-top: 75px;
-padding-bottom: 75px;
+
+@media (min-width: 480px) and (max-width: 767px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+     }
+     @media (min-width: 768px) and (max-width: 1199px) {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        }
 `;
 
 export const AboutTitle = styled.h2`
@@ -52,6 +72,7 @@ height: 60px;
 font-family: inherit;
 color: #FFFFFF;;
 background-color: #cca377;
-text-align: start;
+text-align: center;
 cursor: pointer;
 `;
+

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const RecentsBox = styled.div`
-margin-bottom: 150px;
+margin-bottom: 100px;
 `;
 
 export const ContentBox = styled.div`
@@ -32,9 +32,13 @@ margin-bottom: 40px;
 
 export const RecentsList = styled.ul`
 display: grid;
-grid-column-gap: 25px;
-grid-row-gap: 170px;
+grid-column-gap: 20px;
+grid-row-gap: 32px;
 grid-template-columns: repeat(3,1fr);
+`;
+
+export const RecentsImg = styled.img`
+height: 450px;
 `;
 
 export const RecentsSpan = styled.span`
@@ -50,6 +54,10 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: .05em;
 padding: 5px;
+`;
+
+export const RecentsWrapper = styled.div`
+padding: 10px 5px;
 `;
 
 export const RecentsTitle = styled.h3`

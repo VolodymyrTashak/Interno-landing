@@ -1,4 +1,4 @@
-import { RecentsBox, ContentBox, ContentTitle, ContentText, RecentsList, RecentsSpan, RecentsTitle, RecentsText } from "./Recents.styled"; 
+import { RecentsBox, RecentsImg, ContentBox, ContentTitle, ContentText, RecentsList, RecentsSpan, RecentsWrapper, RecentsTitle, RecentsText } from "./Recents.styled"; 
 import image1 from "../../img/Recents/Kitchen Design.webp"
 import image2 from "../../img/Recents/Living Room.webp"
 import image3 from "../../img/Recents/Minimalist Interior.webp"
@@ -16,40 +16,52 @@ export const Recents = () => {
         
         <RecentsList>
             <li>
-                <img src={image1} alt="Kitchen Design" height={345} />
+                <RecentsImg src={image1} alt="Kitchen Design" />
                 <RecentsSpan>Kitchen Design</RecentsSpan>
-                <RecentsTitle>Residential Interior Designer In New York, USA</RecentsTitle>
-                <RecentsText>November 23, 2021</RecentsText>
+                <RecentsWrapper>
+                 <RecentsTitle>Residential Interior Designer In New York, USA</RecentsTitle>
+                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
             <li>
-                <img src={image2} alt="Living Room" height={345} />
+                <RecentsImg src={image2} alt="Living Room" />
                 <RecentsSpan>Living Room</RecentsSpan>
-                <RecentsTitle>How To Choose The Best Wall Art & Decor House?</RecentsTitle>
-                <RecentsText>November 23, 2021</RecentsText>
+                <RecentsWrapper>
+                 <RecentsTitle>How To Choose The Best Wall Art & Decor House?</RecentsTitle>
+                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
             <li>
-                <img src={image3} alt="Minimalist Interior" height={345} />
+                <RecentsImg src={image3} alt="Minimalist Interior" />
                 <RecentsSpan>Minimalist Interior</RecentsSpan>
+                <RecentsWrapper>
                 <RecentsTitle>Tips To Increase The Interior Value Of Your House</RecentsTitle>
                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
             <li>
-                <img src={image4} alt="Kitchen Design" height={345} />
+                <RecentsImg src={image4} alt="Kitchen Design" />
                 <RecentsSpan>Kitchen Design</RecentsSpan>
-                <RecentsTitle>Best Solution For Any Office & Business Interior</RecentsTitle>
-                <RecentsText>November 23, 2021</RecentsText>
+                <RecentsWrapper>
+                 <RecentsTitle>Best Solution For Any Office & Business Interior</RecentsTitle>
+                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
             <li>
-                <img src={image5} alt="Living Room" height={345} />
+                <RecentsImg src={image5} alt="Living Room" />
                 <RecentsSpan>Living Room</RecentsSpan>
-                <RecentsTitle>Get Solution For Building Construction Work</RecentsTitle>
-                <RecentsText>November 23, 2021</RecentsText>
+                <RecentsWrapper>
+                 <RecentsTitle>Get Solution For Building Construction Work</RecentsTitle>
+                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
             <li>
-                <img src={image6} alt="Minimalist Interior" height={345} />
+                <RecentsImg src={image6} alt="Minimalist Interior" />
                 <RecentsSpan>Minimalist Interior</RecentsSpan>
-                <RecentsTitle>Attain The Best Finish For The Kitchen Cabinets</RecentsTitle>
-                <RecentsText>November 23, 2021</RecentsText>
+                <RecentsWrapper>
+                 <RecentsTitle>Attain The Best Finish For The Kitchen Cabinets</RecentsTitle>
+                 <RecentsText>November 23, 2021</RecentsText>
+                </RecentsWrapper>
             </li>
         </RecentsList>
       </RecentsBox>

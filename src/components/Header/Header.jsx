@@ -1,10 +1,10 @@
-import { HeaderBox, HeaderList, HeaderItem, LogoWrapper, LogoTitle } from "./Header.styled";
+import { HeaderBox, HeaderLogo, HeaderList, HeaderItem, LogoWrapper, LogoTitle } from "./Header.styled";
 import logo from "../../img/Logo.png"
 export const Header = () => {
     return (
       <HeaderBox className="container">
         <LogoWrapper>
-        <img src={logo} alt="Logo" width="34" height="34" />
+        <HeaderLogo src={logo} alt="Logo" />
         <LogoTitle>Interno</LogoTitle>
         </LogoWrapper>
         <HeaderList>
@@ -12,7 +12,7 @@ export const Header = () => {
                 <HeaderItem>About Us</HeaderItem>
                 <HeaderItem>Services</HeaderItem>
                 <HeaderItem>Pages</HeaderItem>
-                <HeaderItem>Contact Us</HeaderItem>
+                <HeaderItem><a href="#contact">Contact Us</a></HeaderItem>
         </HeaderList>
       </HeaderBox>
     );
